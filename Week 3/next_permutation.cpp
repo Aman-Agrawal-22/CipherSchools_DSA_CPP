@@ -8,7 +8,7 @@ using namespace std;
 //nums = [1,2,3] output: [1,3,2]
 //nums = [3,2,1] output: [1,2,3]
 //nums = [1,1,5] output: [1,5,1]
-//TC = O(n), SC = O(1)
+//TC = O(n), SC = O(1) 
 void nextPermutation(vector<int>&nums) {
     if (nums.size() == 1) return;
 
